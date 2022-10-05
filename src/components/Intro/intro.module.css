@@ -1,0 +1,103 @@
+.intro_con {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 1.5em;
+}
+
+.intro_con>div>h1 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 4vw;
+    margin-bottom: .5em;
+}
+
+.intro_con>div>p {
+    color: #81AFDD;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.flex_con {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex_con>img {
+    width: 80px;
+    margin: 0 4%;
+    padding-bottom: 1em;
+}
+
+.intro_con>div:last-child>img {
+    width: 100%;
+}
+
+.intro_con>div>input {
+    width: 65%;
+    background: #052D56;
+    padding-left: 1em;
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 1.5em;
+}
+
+.intro_con>div>button {
+    width: 30%;
+    background: #FF4820;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    margin-bottom: 1em;
+}
+
+.intro_con>div>button,
+.intro_con>div>input {
+    height: 73px;
+    outline: none;
+    border: none;
+}
+
+.intro_con>div>article>img {
+    margin-right: -1em;
+    margin-bottom: 1em;
+}
+
+.intro_con>div>article {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.intro_con>div>article>button {
+    height: 36px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: aqua;
+    border: 2px solid white;
+    z-index: 2;
+    position: relative;
+    left: .4em;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 0 .5em;
+    margin-right: 1em;
+}
+
+.intro_con>div>article>span {
+    font-size: 12px;
+    align-self: center;
+    color: white;
+}
+
+@media (max-width:400px) {
+    .intro_con>div>button,
+    .intro_con>div>input {
+        height: 40px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .intro_con>div>h1 {
+        font-size: 40px;
+    }
+}

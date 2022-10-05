@@ -1,0 +1,11 @@
+.flex_con {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex_con>img {
+    width: 80px;
+    margin: 0 4%;
+    padding-bottom: 1em;
+}
