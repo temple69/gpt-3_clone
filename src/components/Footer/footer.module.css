@@ -36,7 +36,7 @@ footer>article>p {
 
 .footer_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     column-gap: 3em;
     padding-bottom: 3em;
 }

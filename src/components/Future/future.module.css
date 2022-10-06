@@ -1,6 +1,6 @@
 .grid_con {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     column-gap: 3em;
     margin-top: 6em;
 }
@@ -23,7 +23,7 @@
 
 .subgrid>article {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     margin-bottom: 2em;
 }
 
