@@ -10,8 +10,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 4vw;
-    width: 52.5%;
+    font-size: 3.25em;
+    width: 90%;
     padding: 1.5em 0;
     text-align: center;
 }
@@ -52,7 +52,7 @@
     padding-top: 18em;
 }
 
-@media (max-width:400px) {
+@media screen and (max-width:400px) {
     .heading2 {
         font-size: 40px;
         width: 100%;
@@ -63,5 +63,8 @@
     .blog_grid>figure>figcaption {
         padding: 0 1em;
         background-color: #042C54;
+    }
+    .blog_grid>figure:first-child>figcaption>p {
+        padding-top: 10em;
     }
 }

@@ -18,6 +18,7 @@
 .grid_con>div>p {
     color: #FF8A71;
     padding-bottom: 1em;
+    width: 85%;
 }
 
 .subgrid>article {
@@ -44,6 +45,7 @@
 .subgrid>article>p {
     color: #81AFDD;
     line-height: 30px;
+    width: 95%;
 }
 
 @media (max-width:400px) {
