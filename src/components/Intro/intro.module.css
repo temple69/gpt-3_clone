@@ -10,6 +10,12 @@
     background-clip: text;
     font-size: 50px;
     margin-bottom: .5em;
+    animation-name: scale_up;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
 }
 
 .intro_con>div>p {
@@ -90,6 +96,15 @@
     font-size: 12px;
     align-self: center;
     color: white;
+}
+
+@keyframes scale_up {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 @media (max-width:400px) {
